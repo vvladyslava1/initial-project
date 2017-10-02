@@ -333,8 +333,6 @@ p {
     display: block;
     background-color: #f9f9fa;
     padding-top: 100px; }
-    #content .our_services h2 {
-      text-align: center; }
     #content .our_services p {
       text-align: center;
       padding-bottom: 165px; }
@@ -410,3 +408,119 @@ p {
           #content .team .people .person .person-title span {
             display: inline-block;
             vertical-align: middle; }
+  #content .pricing {
+    display: block;
+    background-color: #f9f9fa;
+    padding-top: 100px; }
+    #content .pricing p {
+      text-align: center;
+      padding-bottom: 110px; }
+    #content .pricing ul {
+      display: block;
+      margin-bottom: 110px;
+      margin: 0 auto;
+      padding-bottom: 110px; }
+      #content .pricing ul li {
+        display: inline-block;
+        width: 20%;
+        background-color: #fff;
+        border-radius: 3px;
+        margin-right: 2%;
+        box-shadow: 0 0 10px 10px #f6f6f7; }
+        #content .pricing ul li .cost {
+          display: block;
+          border-bottom: 1px solid #eeeff1;
+          padding: 55px 35px; }
+          #content .pricing ul li .cost .how-much {
+            display: block;
+            color: #17daa3;
+            font-size: 60px;
+            font-weight: 400;
+            margin-bottom: 27px; }
+            #content .pricing ul li .cost .how-much .money {
+              display: inline-block;
+              vertical-align: top;
+              margin-top: -5px; }
+            #content .pricing ul li .cost .how-much .hm-number {
+              display: inline-block; }
+          #content .pricing ul li .cost .what-cost {
+            display: block;
+            color: #87949e;
+            font-size: 18px;
+            font-weight: 400; }
+        #content .pricing ul li .purchase-description {
+          display: block;
+          padding: 70px 35px;
+          color: #87949e;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 2; }
+        #content .pricing ul li .purchase {
+          display: block;
+          padding: 27px 35px;
+          background-color: #29dba9; }
+          #content .pricing ul li .purchase .purchase-text {
+            float: left;
+            overflow: hidden;
+            color: #fff; }
+          #content .pricing ul li .purchase img {
+            float: right;
+            overflow: hidden; }
+  #content .dolor-map {
+    display: block; }
+    #content .dolor-map .dolormap_about1 {
+      display: inline-block;
+      padding: 190px 50px 190px 20px;
+      width: 47%; }
+      #content .dolor-map .dolormap_about1 h2 {
+        margin-bottom: 80px; }
+      #content .dolor-map .dolormap_about1 p {
+        margin-bottom: 75px; }
+    #content .dolor-map .map {
+      display: inline-block;
+      width: 52%; }
+  #content .template {
+    display: block;
+    padding: 170px 0;
+    background-image: url(../img/slider3.png); }
+    #content .template .template-words {
+      display: block;
+      text-align: center; }
+      #content .template .template-words .t-words {
+        display: inline-block;
+        color: #87949e;
+        font-size: 60px;
+        font-weight: 400; }
+        #content .template .template-words .t-words:nth-child(2) {
+          color: #fff;
+          font-weight: 600; }
+    #content .template .learn_more {
+      margin: 0 auto;
+      margin-top: 100px; }
+
+#footer {
+  display: block;
+  background: #fff url(../img/a.png) no-repeat center center; }
+  #footer .copyright {
+    float: left;
+    padding-top: 72px;
+    padding-bottom: 480px; }
+    #footer .copyright img {
+      height: 100%;
+      vertical-align: middle; }
+    #footer .copyright p {
+      display: inline-block;
+      vertical-align: middle; }
+  #footer .nav2 {
+    float: right;
+    padding-top: 76px; }
+    #footer .nav2 a {
+      display: inline-block;
+      margin-left: 55px;
+      cursor: pointer;
+      color: #87949e;
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: uppercase; }
+      #footer .nav2 a:hover {
+        color: #4a4d50; }
